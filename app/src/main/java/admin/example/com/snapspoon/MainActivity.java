@@ -202,12 +202,12 @@ public class MainActivity extends AppCompatActivity
                     if (url.equals("Hannibal")){
 //                            Toast.makeText(MainActivity.this,"clicked 1",Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                        intent.putExtra("url","android.resource://admin.example.com.spotspoontask/"+ R.raw.videos);
+                        intent.putExtra("url","android.resource://admin.example.com.snapspoon/"+ R.raw.videos);
                         startActivity(intent);
                     }else if (url.equals("Hannibal2")){
 //                            Toast.makeText(MainActivity.this,"clicked 2",Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                        intent.putExtra("url","android.resource://admin.example.com.spotspoontask/"+ R.raw.closers);
+                        intent.putExtra("url","android.resource://admin.example.com.snapspoon/"+ R.raw.closers);
                         startActivity(intent);
                     }
 //                Toast.makeText(MainActivity.this,"clicked",Toast.LENGTH_LONG).show();
